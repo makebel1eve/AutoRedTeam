@@ -12,7 +12,7 @@ class Turn:
         self.combined_prompt: str = ""
         self.combined_prompt_embedding: Optional[List[float]] = None
         self.intent: str = ""
-        self.intent_embedding: Optional[List[float]] = None  # add this
+        self.intent_embedding: Optional[List[float]] = None
 
 
 class Trajectory:
