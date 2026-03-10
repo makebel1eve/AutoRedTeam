@@ -1,0 +1,17 @@
+[project]
+name = "ai-unlocked"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "fastapi>=0.135.1",
+    "instructor>=1.14.5",
+    "pgvector>=0.4.2",
+    "pydantic>=2.11.10",
+    "pyrit>=0.11.0",
+    "python-dotenv>=1.2.2",
+    "semantic-kernel>=1.36.0",
+    "sentence-transformers>=5.2.3",
+]
